@@ -17,6 +17,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".activities.RegisterActivity" />
+        <activity
+            android:name=".activities.UsersListActivity"
+            android:label="@string/title_activity_users_list"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>
